@@ -48,6 +48,9 @@ const Search = () => {
                         <button type="button" class="btn p-1 px-3 my-3 w-100" onClick={handleSearch}>Seach</button>
                     </div>
                 </form>
+                <div>
+                    <p>Here you can search for movies and get the year of release!</p>
+                </div>
                 <ul className='query'>
                     {!!queries && queries.map((query, i) => {
                         return (
