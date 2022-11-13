@@ -5,10 +5,11 @@ export const MovieReducer = (state, action) => {
             return [...state, {
                 title: action.movie.title,
                 director: action.movie.director,
-                id: action.movie.ide
+                year: action.movie.year,
+                id: action.movie.id
             }];
         
-        case 'REMOVE_BOOK':
+        case 'REMOVE_MOVIE':
             return state.filter(movie => movie.id !== action.id);
         default:
             return state;
