@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ELV-birthday/static/css/main.138fa9ca.css",
+    "main.js": "/ELV-birthday/static/js/main.64b8d2dd.js",
+    "index.html": "/ELV-birthday/index.html",
+    "main.138fa9ca.css.map": "/ELV-birthday/static/css/main.138fa9ca.css.map",
+    "main.64b8d2dd.js.map": "/ELV-birthday/static/js/main.64b8d2dd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.138fa9ca.css",
+    "static/js/main.64b8d2dd.js"
+  ]
+}
