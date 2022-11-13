@@ -23,13 +23,14 @@ const AddMovieForm = () => {
     }
 
     return (
-        <div className='mx-auto mt-5'>
+        <div className='info card w-25 p-3 mx-auto mt-5'>
             <form onSubmit={handleSubmit}>
-                <input className='form-control w-25 m-auto' type='text' placeholder='title' value={title} onChange={(e) => setTitle(e.target.value)} required />
-                <input className='form-control w-25 m-auto' type='text' placeholder='director' value={director} onChange={(e) => setDirector(e.target.value)} required />
-                <input className='form-control w-25 m-auto' type='text' placeholder='year' value={year} onChange={(e) => setYear(e.target.value)} required />
-                <input className='form-control w-25 m-auto' type='text' placeholder='id' value={id} onChange={(e) => setId(e.target.value)} required />
-                <input className='form-control w-25 m-auto' type='submit' value='Add Movie' />
+                <input className='form-control w-50 form-control-sm mb-2 border-0 m-auto' type='text' placeholder='title' value={title} onChange={(e) => setTitle(e.target.value)} required />
+                <input className='form-control w-50 form-control-sm mb-2 border-0 m-auto' type='text' placeholder='director' value={director} onChange={(e) => setDirector(e.target.value)} />
+                <input className='form-control w-50 form-control-sm mb-2 border-0 m-auto' type='text' placeholder='year' value={year} onChange={(e) => setYear(e.target.value)} required />
+                <input className='form-control w-50 form-control-sm mb-2 border-0 m-auto' type='text' placeholder='id' value={id} onChange={(e) => setId(e.target.value)} required />
+                <input className='btn form-control w-50 form-control-sm border-0 m-auto' type='submit' value='Add Movie' />
+
             </form>
         </div>
     );

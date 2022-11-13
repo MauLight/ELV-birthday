@@ -1,12 +1,77 @@
+body {
+  background-image: linear-gradient(to right bottom, #efefef, #e7e7e7, #e0e0e0, #d8d8d8, #d1d1d1) !important;
+}
+
 .App {
-    text-align: center;
-  }
+  text-align: center;
+}
 
-  li {
-    list-style: none;
-  }
+li {
+  list-style: none;
+}
 
-  .booklist :hover {
-    color: aqua;
-    font-style: italic;
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:link {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #8d8d8d;
+}
+
+
+
+.booklist :hover {
+  color: hotpink;
+  font-style: italic;
+}
+
+h1 {
+  color: hotpink;
+  font-style: italic;
+}
+
+.remove {
+  color: black !important;
+  font-style: normal !important;
+  font-size: small !important;
+}
+
+.info {
+  background-color: #efeded !important;
+  border: none !important;
+  border-radius: 50px !important;
+  background: #e0e0e0;
+  box-shadow:  20px 20px 60px #8d8d8d,
+               -20px -20px 60px #ffffff;
+}
+
+.instructions {
+  color: #ff69b4;
+}
+
+.instructions-2 {
+  font-size: small;
+}
+
+.btn:hover {
+  background-color: #ff69b4 !important;
+
+}
+.btn:active {
+  background-color: #ff69b4 !important;
+}
+
+.query {
+  margin-top: 30px;
+  padding-left: initial;
+}
+
+.query-item:hover {
+  color: #ff69b4;
 }
